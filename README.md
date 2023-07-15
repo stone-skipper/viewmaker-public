@@ -1,7 +1,10 @@
 # Viewmaker
 
 
-https://github.com/stone-skipper/viewmaker/assets/48980449/5a7977af-bb8e-49f5-bbd8-60bb7e5dbd2e
+
+https://github.com/stone-skipper/viewmaker-public/assets/48980449/3ffdd2a2-1655-487c-b02d-beea8fdf2acd
+
+
 
 
 This is a prototype to test inpainting with [Stable Diffusion](https://replicate.com/stability-ai/stable-diffusion) based on the camera input from a smartphone.
