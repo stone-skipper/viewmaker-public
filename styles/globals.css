@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+@layer components {
+  #__next {
+    @apply h-full;
+    @apply w-full;
+    @apply overflow-hidden;
+  }
+  html,
+  body {
+    @apply h-full;
+    @apply w-full;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 0.07em;
+    background: black;
+    text-transform: uppercase;
+  }
+}
+/* body,
+html {
+  width: 100vw;
+  height: 100vh;
+} */
+
+input {
+  /* @apply border;
+  @apply border-solid;
+  @apply border-gray-300; */
+  /* @apply rounded-md; */
+  @apply px-4;
+  @apply py-2;
+}
+
+.border-hairline {
+  /* @apply border border-black border-opacity-10; */
+}
+
+.lil-button {
+  @apply inline-block;
+  @apply uppercase;
+  /* @apply border-hairline; */
+  @apply text-sm;
+  @apply text-gray-500;
+  /* @apply rounded-md;
+  @apply py-2;
+  @apply mx-3; */
+}
+
+.icon {
+  @apply inline relative mr-1;
+  top: -0.1em;
+  width: 1.1em;
+  height: 1.1em;
+}
